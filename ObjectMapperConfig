@@ -1,0 +1,18 @@
+public class ObjectMapperUtils {
+
+  public static ObjectMapper createMapper() {
+    return configure(new ObjectMapper());
+  }
+
+  private static ObjectMapper configure(ObjectMapper mapper) {
+    return mapper
+            .registerModule(new ParameterNamesModule())
+            .registerModule(new Jdk8Module())
+            .registerModule(new JavaTimeModule())
+            .enable(MapperFeature.ACCEPT_CASE_INSENSITIVE_ENUMS)
+            .disable(SerializationFeature.WRITE_DATES_AS_TIMESTAMPS)
+            .disable(SerializationFeature.WRITE_DATE_KEYS_AS_TIMESTAMPS)
+            .disable(DeserializationFeature.FAIL_ON_UNKNOWN_PROPERTIES)
+            .setDateFormat(new StdDateFormat());
+  }
+}
