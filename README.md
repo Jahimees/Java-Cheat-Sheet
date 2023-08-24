@@ -4,5 +4,7 @@
 
 Полезные ссылки:
 
-Spring Patch: https://www.baeldung.com/spring-rest-json-patch
-Rabbit MQ: https://habr.com/ru/articles/262069/
+<ul>
+<li>Spring Patch: https://www.baeldung.com/spring-rest-json-patch</li>
+<li>Rabbit MQ: https://habr.com/ru/articles/262069/</li>
+</ul>
