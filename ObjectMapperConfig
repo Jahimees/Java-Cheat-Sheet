@@ -4,6 +4,8 @@ public class ObjectMapperUtils {
     return configure(new ObjectMapper());
   }
 
+
+//XSS module но неправильно
   private static ObjectMapper configure(ObjectMapper mapper) {
     return mapper
             .registerModule(new ParameterNamesModule())
