@@ -7,5 +7,5 @@
 <ul>
 <li>Spring Patch: https://www.baeldung.com/spring-rest-json-patch</li>
 <li>Rabbit MQ: https://habr.com/ru/articles/262069/</li>
-<li>JS виджет для кода страны телефона: https://github.com/jackocnr/intl-tel-input</li>
+<li>JS виджет для кода страны телефона: https://github.com/jackocnr/intl-tel-input https://github.com/jackocnr/intl-tel-input#public-methods</li>
 </ul>
