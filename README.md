@@ -22,6 +22,7 @@
     <li>JS виджет примеры: https://intl-tel-input.com/examples/hidden-input.html</li>
     <li>DataTables конфиг: https://datatables.net/reference/option/language</li>
     <li>Красивый рендер DataTables: https://datatables.net/examples/basic_init/data_rendering.html</li>
+    <li>Библиотека для статистики: https://gionkunz.github.io/chartist-js/getting-started.html</li>
   </ul>
   <ul>
     <h3>React</h3>
