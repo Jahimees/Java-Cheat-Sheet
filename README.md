@@ -7,6 +7,7 @@
 <ul>
   <ul>
     <h3>Java</h3>
+    <li>!Онлайн чат Spring Boot + WebSockets: https://spring.io/guides/gs/messaging-stomp-websocket/</li>
     <li>Онлайн чат Spring Boot + WebSockets: https://habr.com/ru/companies/otus/articles/516702/</li>
     <li>Spring Patch: https://www.baeldung.com/spring-rest-json-patch</li>
     <li>Spring Security основы: https://habr.com/ru/articles/203318/</li>
