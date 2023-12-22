@@ -14,6 +14,7 @@
     <li>Hibernate Formula: https://javarush.com/quests/lectures/questhibernate.level12.lecture01</li>
     <li>Hibernate NativeSQL: http://hibernate-refdoc.3141.ru/ch18.NativeSQL</li>
     <li>Статья про потокобезопасность Spring: https://medium.com/@miladro/interview-question-how-you-handle-thread-safety-in-spring-boot-f8c8d3aecbee</li>
+    <li>Микросервисы + RabbitMQ + Docker: https://github.com/jonashackt/spring-rabbitmq-messaging-microservices/blob/master/</li>
   </ul>
   <ul>
     <h3>RabbitMQ</h3>
