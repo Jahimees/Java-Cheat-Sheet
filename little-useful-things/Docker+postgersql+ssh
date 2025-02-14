@@ -1,0 +1,23 @@
+# Используем официальный образ PostgreSQL как базовый
+FROM postgres:latest
+
+# Устанавливаем SSH сервер
+RUN apt-get update && apt-get install -y openssh-server sudo
+
+# Создаём пользователя и задаём пароль
+RUN useradd -ms /bin/bash postgresuser
+RUN echo 'postgresuser:password' | chpasswd
+
+# Настроим SSH
+RUN mkdir /var/run/sshd
+RUN echo 'PermitRootLogin yes' >> /etc/ssh/sshd_config
+RUN echo 'PasswordAuthentication yes' >> /etc/ssh/sshd_config
+
+# Открываем порт для SSH
+EXPOSE 22
+
+# Устанавливаем рабочую директорию
+WORKDIR /var/lib/postgresql
+
+# Стартуем PostgreSQL и SSH сервер
+CMD service ssh start && docker-entrypoint.sh postgres
