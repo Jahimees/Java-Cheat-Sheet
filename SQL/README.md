@@ -4,3 +4,5 @@
 | 2 | PostgreSql | :x: |    :x:    |
 | 3 | NoSQL | :x: |    :x:    |
 | 4 | Redis | :x: |    :x:    |
+| 5 | FlyWay | :x: |    :x:    |
+| 6 | Liquibase | :x: |    :x:    |
