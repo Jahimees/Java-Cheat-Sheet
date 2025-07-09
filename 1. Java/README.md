@@ -8,7 +8,7 @@
 | 6 | Generics | :white_check_mark: | :x: |
 | 7 | Введение в многопоточность | :white_check_mark: | :x: |
 | 7+ | Concurrent коллекции | :x: | :x: |
-| 8 | Input/Output потоки. File IO | :x: | :x: |
+| 8 | Input/Output потоки. File IO | 🟡 | :x: |
 | 9 | Stream и Lambda | :white_check_mark: | :x: |
 | 10 | Внутренние и вложенные классы | :white_check_mark: | :x: |
 | 11 | Optional | :white_check_mark: | :x: |
