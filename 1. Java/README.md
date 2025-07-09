@@ -16,3 +16,5 @@
 | 13 | Сравнение с помощью Comparator | :white_check_mark: | :x: |
 | 14 | Функциональные интерфейсы | :x: | :x: |
 | 15 | Создание Immutable класса | :white_check_mark: | :x: |
+| 16 | Свойства класса Object | :x: | :x: |
+https://javarush.com/groups/posts/4125-kofe-breyk-229-kak-rabotatjh-s-faylami-i-inputoutput-v-java-sluzhebnihe-metodih-klassa-objects
