@@ -17,4 +17,5 @@
 | 15 | Создание Immutable класса | :white_check_mark: | :x: |
 | 16 | Свойства класса Object | 🟡 | :x: |
 | 17 | Фишки новой Java | 🟡 | :x: |
+
 https://javarush.com/groups/posts/4125-kofe-breyk-229-kak-rabotatjh-s-faylami-i-inputoutput-v-java-sluzhebnihe-metodih-klassa-objects
